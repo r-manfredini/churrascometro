@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #FFDD3E;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+.title h2 {
+    font-size: 1em;
+}
+
+svg {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.churras {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    padding: 20px;
+}
+
+.churras h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #232C39;
+}
+
+
+.inputBx {
+    width: 100%;
+    position: relative;
+}
+
+.inputBx input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    background-color: #232C39;
+    color: #fff;
+}
+
+.inputBx input::placeholder {
+    color: #fff;
+}
+
+.inputBx input[type="button"] {
+    background-color: #232C39;
+    color: #fff;
+    width: 100px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.resultado {
+    position: relative;
+    padding: 20px;
+}
+
+.resultadoBx {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+.resultadoBx span {
+    font-weight: 600;
+    font-size: 0.876em;
+    font-style: italic;
+    color: #232C39;
+}
+
+.resultado h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #232C39;
+}
+
+@media (max-width: 991px) {
+    .display-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    svg {
+        max-width: 100%;
+    }
+
+    .churras {
+        max-width: 100%;
+    }
+}
